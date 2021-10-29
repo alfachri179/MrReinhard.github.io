@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Red+Rose&display=swap");
+
+.head {
+  background-color: #38ea7f;
+  opacity: 80%;
+  width: 100%;
+  height: 150px;
+}
+
+.navbar {
+  background-color: #d7d7d7;
+  font-weight: bold;
+  font-family: Rajdhani, sans-serif;
+}
+
+.navbar .container-fluid a {
+  font-family: "Red Rose", cursive;
+  color: #8a31d0;
+}
+.navbar .container-fluid a img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.StoreName {
+  width: 100%;
+  height: 80px;
+}
+.StoreName h1 {
+  color: #8a31d0;
+  font-family: "Red Rose", cursive;
+}
+
+.head .slogan p {
+  font-family: Rajdhani, sans-serif;
+}
+
+.tron h2 {
+  font-family: Rajdhani, sans-serif;
+}
+
+.fitur {
+  width: 180px;
+  text-align: justify;
+  height: 230px;
+}
+
+.game {
+  height: 1000px;
+  background-color: #38ea7f;
+}
+
+.game h2 {
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+}
+
+.content a {
+  text-decoration: none;
+  font-family: Rajdhani, sans-serif;
+  margin-left: 40px;
+  color: lavender;
+  transition: 0.5s;
+}
+
+.gi {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  background-image: url("images/bg-genshin.jpg");
+  background-size: cover;
+  background-position: 0 -230px;
+}
+.ml {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  background-image: url("images/bg-ml.jpg");
+  background-size: cover;
+  background-position: 0 -230px;
+}
+.aov {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  background-image: url("images/bg-aov.jpg");
+  background-size: cover;
+  background-position: 0 -115px;
+}
+
+.ff {
+  width: 100%;
+  height: 130px;
+  line-height: 130px;
+  background-image: url("images/bg-ff.jpg");
+  background-size: cover;
+  background-position: 0 -230px;
+}
+
+.tulisan {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 38, 255, 0.25), rgba(182, 182, 182, 0.73));
+}
+
+.box:hover .tulisan a {
+  margin-left: 80px;
+}
+.box:hover .tulisan {
+  background-image: linear-gradient(to left, rgba(182, 182, 182, 0.73), rgba(206, 11, 11, 0.73));
+}
